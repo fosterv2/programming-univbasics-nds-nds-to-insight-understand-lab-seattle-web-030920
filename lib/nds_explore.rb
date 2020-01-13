@@ -8,7 +8,7 @@ def pretty_print_nds(nds)
   pp directors_database
 end
 
-# array(dirctor), hash(name, movies), array(movies), hash(title, studio, worldwide_gross, release_year)
+# array(of dirctors), hash(name, movies), array(of movies), hash(title, studio, worldwide_gross, release_year)
 def print_first_directors_movie_titles
   movie_index = 0
   while movie_index < directors_database[0][:movies].length do
